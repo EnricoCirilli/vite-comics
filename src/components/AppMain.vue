@@ -5,7 +5,7 @@ export default {
         navItems: [
         {
           title: 'DIGITAL COMICS',
-          img : "buy-comics-digital-comics.png",
+          img : "",
           isActive: false,
         },
         {
@@ -42,9 +42,11 @@ export default {
 <template>
 <div class="digital">
 <ul>
+        <img src="src/assets/img/buy-comics-digital-comics.png" alt="">
         <li v-for="item in navItems" :key="item">
           <a :class="{ active: item.isActive }" href="">{{ item.title }}</a>
         </li>
+        <img src="src/assets/img/buy-comics-digital-comics.png" alt="">
   </ul>
 </div>
 </template>
