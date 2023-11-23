@@ -1,28 +1,27 @@
 <script>
 export default {
-  data() {
-    return {
-    
-    }
+  data(){
+    return{};
   },
-}
+};
 
 
 </script>
 
 
 <template>
-
-
-
+<div>
+<p>Content goes here</p>
+</div>
 </template>
 
-<div>
-<h1>Chero Page</h1>
-</div>
+
+
 
 <style>
-
+div{
+  border: 1px red solid;
+}
 
 
 </style>
