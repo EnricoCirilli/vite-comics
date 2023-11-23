@@ -70,9 +70,9 @@ export default {
 </template>
 
 
-<style>
+<style lang="SCSS" scoped>
 header {
-  border: 1px red solid;
+  border: 1px #0282F9 solid ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +98,6 @@ a{
   letter-spacing: 1px;
   padding: 10px;
   border-radius: 5px;
-  transition: all 0.3s ease-in-out;
 }
 
 

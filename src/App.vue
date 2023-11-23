@@ -35,9 +35,9 @@ export default {
 
 </template>
 
-<style scoped>
+<style lang="scss">
 
-
-
+//sass
+@use "src/style/general.scsss";
 
 </style>
