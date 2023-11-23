@@ -38,6 +38,6 @@ export default {
 <style lang="scss">
 
 //sass
-@use "src/style/general.scsss";
+@use "src/style/general.scss"
 
 </style>
