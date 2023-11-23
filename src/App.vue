@@ -1,13 +1,15 @@
 
 <script>
-import bnavbar from './components/bnavbar.vue';
+import AppNavbar from "./components/appNavbar.vue";
+
 
 
 
 
 export default {
   components: {
-    bnavbar,
+    AppNavbar,
+    
     
 },
   data() {
@@ -21,8 +23,8 @@ export default {
 </script>
 
 <template>
- 
-<bnavbar />
+
+<AppNavbar />
 
 
 </template>
