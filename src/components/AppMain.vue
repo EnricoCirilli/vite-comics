@@ -4,8 +4,8 @@ export default {
     return{
         navItems: [
         {
-          title: "DIGITAL COMICS",
-          img : "/src/assets/img/digital-comics.png",
+          title: 'DIGITAL COMICS',
+          img : "buy-comics-digital-comics.png",
           isActive: false,
         },
         {
@@ -31,6 +31,8 @@ export default {
         ],
     };
   },
+  
+
 };
 
 
@@ -74,6 +76,9 @@ export default {
         text-transform: uppercase;
         &.active{
           color: #FF0000;
+        }
+        & img{
+          color: white;
         }
       }
     }
