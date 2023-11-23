@@ -3,9 +3,6 @@
 import AppNavbar from "./components/appNavbar.vue";
 
 
-
-
-
 export default {
   components: {
     AppNavbar,
