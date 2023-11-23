@@ -51,7 +51,7 @@ export default {
 
 
 
-<style lang="SCSS" scoped>
+<style lang="scss" scoped>
 .digital{
   border: 1px red solid;
   background-color: rgb(136, 136, 220);

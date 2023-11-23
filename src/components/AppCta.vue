@@ -18,7 +18,7 @@ export default {
 
 
 
-<style lang="SCSS" scoped>
+<style lang="scss" scoped>
 div{
   border: 1px red solid;
 }

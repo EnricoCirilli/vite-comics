@@ -10,17 +10,22 @@ export default {
 
 
 <template>
-<div>
-<p>Content goes here</p>
+<div class="content">
+  
+<p> -->Content goes here--> </p>
 </div>
 </template>
 
 
 
 
-<style lang="SCSS" scoped>
-div{
-  border: 1px red solid;
+<style lang="scss" scoped>
+.content{
+ 
+  background-color: black;
+  & p{
+    color: white;
+  }
 }
 
 

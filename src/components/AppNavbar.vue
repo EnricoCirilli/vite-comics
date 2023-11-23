@@ -70,9 +70,10 @@ export default {
 </template>
 
 
-<style lang="SCSS" scoped>
+<style lang="scss" scoped>
 header {
-  border: 1px #0282F9 solid ;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

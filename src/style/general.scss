@@ -1,2 +1,13 @@
-@use "src/style/partials/_variables.scss" as *
 
+@use "src/style/partials/_variables.scss" as *;
+@use "src/style/partials/_mixins.scss" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
