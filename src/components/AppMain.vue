@@ -56,7 +56,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 60px;
 
   & ul{
     display: flex;

@@ -27,6 +27,9 @@ export default {
     color: white;
     width: 80%;
     margin: 0 auto;
+    padding: 60px;
+    font-size: large;
+    font-weight: bold;
   }
 }
 
