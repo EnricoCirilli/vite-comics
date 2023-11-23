@@ -39,7 +39,6 @@ export default {
 
 <template>
 <div class="digital">
-<p>x</p>
 <ul>
         <li v-for="item in navItems" :key="item">
           <a :class="{ active: item.isActive }" href="">{{ item.title }}</a>
@@ -53,8 +52,32 @@ export default {
 
 <style lang="scss" scoped>
 .digital{
-  border: 1px red solid;
-  background-color: rgb(136, 136, 220);
+  background-color: #0282F9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  & ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    & li{
+      list-style: none;
+      & a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        &.active{
+          color: #FF0000;
+        }
+      }
+    }
+  }
 }
 
 

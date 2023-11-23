@@ -10,9 +10,8 @@ export default {
 
 
 <template>
-<div>
-<p>Content goes here</p>
-<img src="src/assets/img/footer-bg.jpg" alt="">
+<div class="footer">
+<img src="" alt="">
 </div>
 </template>
 
@@ -20,8 +19,8 @@ export default {
 
 
 <style lang="scss" scoped>
-div{
-  border: 1px red solid;
+.footer{
+ background-image: url(src/assets/img/footer-bg.jpg) ;
 }
 
 

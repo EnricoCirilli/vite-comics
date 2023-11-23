@@ -25,6 +25,8 @@ export default {
   background-color: black;
   & p{
     color: white;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
