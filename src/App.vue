@@ -38,6 +38,7 @@ export default {
 <style lang="scss">
 
 //sass
+@use "./style/partials/variables" as *;
 @use "src/style/general.scss"
 
 </style>

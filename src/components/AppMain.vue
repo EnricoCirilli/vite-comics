@@ -6,7 +6,7 @@ export default {
         {
           title: 'DIGITAL COMICS',
           img : "",
-          isActive: false,
+       
         },
         {
           title: "DC MERCHANDISE",
@@ -42,11 +42,12 @@ export default {
 <template>
 <div class="digital">
 <ul>
-        <img src="src/assets/img/buy-comics-digital-comics.png" alt="">
+        
         <li v-for="item in navItems" :key="item">
-          <a :class="{ active: item.isActive }" href="">{{ item.title }}</a>
+          <img src="img" alt="">
+         <a :class="{ active: item.isActive }" href="">{{ item.title }}</a>
         </li>
-        <img src="src/assets/img/buy-comics-digital-comics.png" alt="">
+        
   </ul>
 </div>
 </template>
@@ -80,6 +81,7 @@ export default {
           color: #FF0000;
         }
         & img{
+          width: 12px;
           color: white;
         }
       }
