@@ -1,6 +1,9 @@
 <script>
 export default {
-    props: {}
+    props: {
+        title: String,
+        image: String,
+    }
 }
 
 
@@ -10,7 +13,8 @@ export default {
 
     <!-- card -->
     <div class="card">
-        
+        <img :src="image" alt="">
+        <h3>{{ title }}</h3>
     </div>
 
 </template>

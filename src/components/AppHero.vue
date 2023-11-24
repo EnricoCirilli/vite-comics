@@ -95,8 +95,8 @@ export default {
 <div class="row">
 
   <div class="col" v-for="(item, index) in comics" :key="index">
-    <AppCard />
-
+     <AppCard :title="item.series" :image="item.thumb"/> 
+<h3>ww</h3>
   </div>
 </div>
     </div>
@@ -113,9 +113,18 @@ export default {
   text-align: center;
   padding: 2rem;
   background-color: black;
-  .container{
+ 
+  .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    .col{
+      width: calc(100% / 6);
 
+      
+    }
   }
 }
-
 </style>
