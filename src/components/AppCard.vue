@@ -3,7 +3,7 @@ export default {
     props: {
         title: String,
         image: String,
-    }
+    },
 }
 
 
@@ -20,5 +20,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+.card{
+    img{
+        width: 100%;
+    }
+}
 
 </style>
