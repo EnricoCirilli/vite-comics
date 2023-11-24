@@ -96,7 +96,7 @@ export default {
 
   <div class="col" v-for="(item, index) in comics" :key="index">
      <AppCard :title="item.series" :image="item.thumb"/> 
-<h3>ww</h3>
+
   </div>
 </div>
     </div>
@@ -121,8 +121,8 @@ export default {
     flex-direction: row;
    
     .col{
-      width: calc(100% / 6);
-
+      width: calc(100% / 6 - 20px);
+      margin: 10px;
       
     }
   }

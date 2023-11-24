@@ -25,7 +25,7 @@ export default {
     height: 100%;
     
     img{
-        height: 70%;
+        max-height: 100px;
         width: 100%;
        object-fit: cover;
     }
