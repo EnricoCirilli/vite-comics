@@ -115,7 +115,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer{
-background-image: url(src/assets/img/footer-bg.jpg) ;
+background-image: url(../assets/img/footer-bg.jpg) ;
 background-size: cover;
 background-repeat: no-repeat;
 height: 450px;

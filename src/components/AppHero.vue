@@ -112,7 +112,7 @@ export default {
 .wrapper{
   text-align: center;
   padding: 2rem;
-  background-color: grey;
+  background-color: rgb(53, 46, 46);
  
   .row{
     display: flex;
