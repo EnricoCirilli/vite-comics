@@ -22,9 +22,15 @@ export default {
 <style lang="scss" scoped>
 
 .card{
+    height: 100%;
+    
     img{
+        height: 70%;
         width: 100%;
+       object-fit: cover;
     }
 }
-
+h3{
+    color: white;
+}
 </style>

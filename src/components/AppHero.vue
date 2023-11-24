@@ -112,14 +112,14 @@ export default {
 .wrapper{
   text-align: center;
   padding: 2rem;
-  background-color: black;
+  background-color: grey;
  
   .row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+   
     .col{
       width: calc(100% / 6);
 
