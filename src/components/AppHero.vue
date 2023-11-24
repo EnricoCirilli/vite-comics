@@ -1,15 +1,11 @@
 <script>
-import Card from './AppCard.vue'
-
+import AppCard from "./AppCard.vue";
 
 export default {
-  name: "AppHero",
-    components: { 
-      Card
-    },
+    
   data(){
     return{
-      cards: [
+      comics: [
   {
     "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
     "price": "$19.99",
@@ -85,6 +81,8 @@ export default {
 ]
     };
   },
+  components: {
+    AppCard},
 };
 
 
@@ -92,21 +90,18 @@ export default {
 
 
 <template>
-  <main>
-      <div class="container">
+  <div class="wrapper">
+    <div class="container">
+<div class="row">
 
-          <!-- bottone current -->
-          <a href="#" class="button current">CURRENT SERIES</a>
+  <div class="col" v-for="(item, index) in comics" :key="index">
+    <AppCard />
 
-          <!-- contenitore padre che contiene singola card -->
-          <div class="cards">
-              <Card v-for="card in cards" :thumb="card" />
-          </div>
+  </div>
+</div>
+    </div>
 
-          <!-- bottone load -->
-          <a href="#" class="button load">LOAD MORE</a>
-      </div>
-  </main>
+  </div>
 </template>
 
 
@@ -114,41 +109,13 @@ export default {
 
 <style lang="scss" scoped>
 @use "../style/partials/variables" as *;
+.wrapper{
+  text-align: center;
+  padding: 2rem;
+  background-color: black;
+  .container{
 
-main {
-    background-color: #1c1c1c;
-
-    .container {
-        color: $text-white;
-        text-align: center;
-        padding: 30px 0;
-        position: relative;
-
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            margin-inline: -15px;
-           border: 3px solid green;
-        }
-
-        .button {
-            display: inline-block;
-            color: $text-white;
-            background-color: $primary;
-            font-weight: bolder;
-            margin-top: 30px;
-
-            &.current {
-                padding: 10px 20px;
-                position: absolute;
-                left: 0;
-                top: -40px;
-            }
-
-            &.load {
-                padding: 10px 40px;
-            }
-        }
-    }
+  }
 }
+
 </style>

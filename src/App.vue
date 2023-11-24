@@ -1,7 +1,7 @@
 
 <script>
 import AppNavbar from "./components/appNavbar.vue";
-import Apphero from "./components/appHero.vue";
+import AppHero from "./components/AppHero.vue";
 import AppMain from "./components/appMain.vue";
 import AppFooter from "./components/appFooter.vue";
 import AppCta from "./components/appCta.vue";
@@ -9,7 +9,7 @@ import AppCta from "./components/appCta.vue";
 export default {
   components: {
     AppNavbar,
-    Apphero,
+    AppHero,
     AppMain,
     AppFooter,   
     AppCta,
@@ -28,7 +28,7 @@ export default {
 <template>
 
 <AppNavbar />
-<Apphero />
+<AppHero />
 <AppMain />
 <AppFooter />
 <AppCta />
@@ -38,7 +38,7 @@ export default {
 <style lang="scss">
 
 //sass
-@use "./style/partials/variables" as *;
-@use "src/style/general.scss"
+
+@use "./style/general.scss"
 
 </style>
